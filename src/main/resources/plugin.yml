@@ -1,0 +1,10 @@
+name: CastleWars
+version: '${project.version}'
+main: ru.permasha.castlewars.CastleWars
+api-version: 1.16
+softdepend: [PlaceholderAPI, LuckPerms, CustomJumpPads, ProtocolLib]
+commands:
+  castlewars:
+    aliases: [cw]
+  castlewarsadmin:
+    aliases: [cwa]

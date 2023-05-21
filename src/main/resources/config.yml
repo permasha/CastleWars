@@ -1,0 +1,20 @@
+# If this is -1, unlimited games will be allowed to operate
+max-games: -1
+# Lobby point is where players will be teleported when they join the server IF single server mode is true
+lobby-point:
+  x: 0
+  y: 59
+  z: 0
+  world: "world"
+board:
+  title: "&eCastleWars"
+  lobby:
+    rows:
+      - "Ранг %luckperms_groups%"
+      - ""
+      - "&7Убито &f%cw_kills%"
+      - "&7Побед &f%cw_wins%"
+      - ""
+      - "&f%cw_balance%&6ℛ"
+      - ""
+      - "&eRandomCraft.ru"

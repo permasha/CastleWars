@@ -1,0 +1,30 @@
+games:
+  cw1:
+    displayName: Rats 2
+    maxPlayers: 16
+    minPlayers: 2
+    worldName: rats_2
+    lobbyPoint: X:0, Y:100, Z:1
+    winAfter: 300
+    time: 32
+    teams:
+      - "BLUE;&9;0.5;59;0.5;4"
+      - "PURPLE;&5;0.5;59;0.5;4"
+      - "GREEN;&a;0.5;59;0.5;4"
+      - "RED;&c;0.5;59;0.5;4"
+    scoreboard:
+      - "&b%cw_time%"
+      - "&fКоманда %cw_team%"
+      - "&fУ/П/C %cw_round_kills%/%cw_round_help%/%cw_round_deaths%"
+      - ""
+      - "&fКарта %cw_arena%"
+      - ""
+      - "&9BLUE &f(&e%cw_score_bar_blue%&f)"
+      - "&f%cw_score_blue%"
+      - "&5PURPLE &f(&e%cw_score_bar_purple%&f)"
+      - "%cw_score_purple%"
+      - "&aGREEN &f(&e%cw_score_bar_green%&f)"
+      - "%cw_score_green%"
+      - "&cRED &f(&e%cw_score_bar_red%&f)"
+      - "%cw_score_red%"
+      - "&eRandomCraft.ru"
